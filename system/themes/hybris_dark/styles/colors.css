@@ -1,0 +1,170 @@
+/**
+ * Color Scheme for Hybris (Dark Mode)
+ */
+
+html, body {
+    background-color: #0d0d0d;
+}
+
+
+* {
+    color: rgba(255,255,255,0.25);
+}
+
+
+/*
+** SOCIAL MEDIA LINKS
+*/
+        .socialLinks .social-likes a {
+            background-color: rgba(255,255,255,0.75);
+            color: #000000;
+        }
+
+    .copyright p {
+        color: rgba(255,255,255,0.4);
+    }
+        .copyright p a {
+            color: rgba(255,255,255,0.4);
+        }
+        .copyright p a:hover {
+            color: rgba(255,255,255,0.8);
+        }
+        .copyright p a:after {
+            background-color: rgba(255,255,255,0.4);
+        }
+
+
+/*
+** NAVBAR
+*/
+    .navbar-toggle {
+        background-color: rgba(255,255,255,0.7);
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ececec;
+    }
+        .navbar-nav li a {
+            color: rgba(255,255,255,0.4);
+        }
+        .navbar-default .navbar-nav > li > a:after {
+            background-color: rgba(255,255,255,0.6);
+        }
+        .navbar-nav > li > a {
+        }
+        .navbar-default .navbar-nav > li > a {
+            color: rgba(255,255,255,0.4);
+        }
+        .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-nav > li > a.active, .navbar-nav > li > ul > li > a.active {
+            color: rgba(255,255,255,1);
+        }
+        .navbar-nav li:hover > a {
+            color: rgba(255,255,255,1);
+        }
+        .navbar-nav > li > ul > li {
+            color: rgba(255,255,255,0.4);
+        }
+        .navbar-nav li > ul > li > a {
+            color: rgba(255,255,255,0.4);
+        }
+        .navbar-nav li > ul > li > a:after {
+            background-color: rgba(255,255,255,0.2);
+        }
+        .navbar-nav li > ul > li > a:hover, .navbar-nav li > ul > li > a.active {
+            color: rgba(255,255,255,0.8);
+        }
+
+
+/*
+** STATIC PAGE
+*/
+    .infoWrapper h4 {
+        color: rgba(255,255,255,0.8);
+    }
+
+    .infoWrapper h5 {
+        color: rgba(255,255,255,0.5);
+    }
+    .infoWrapper a {
+        color: rgba(255,255,255,0.8);
+    }
+    .infoWrapper a:after {
+        background-color: rgba(255,255,255,255.4);
+    }
+    .page-static {
+        }
+        .page-static h1, .page-static h2, .page-static h3, .page-static h4, .page-static h5, .page-static h6 {
+        	color: rgba(255,255,255,0.8);
+        }
+
+
+/*
+** CONTACT
+*/
+#contactForm {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+    .form-group label {
+        background-color: #1d1d1d;
+        border: 1px solid rgba(255,255,255,0.1);
+    }
+    .form-group input {
+        background-color: rgba(255,255,255,0.1);
+    }
+    .form-group textarea {
+        background-color: rgba(255,255,255,0.1);
+    }
+    .form-group-buttons {
+        border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .form-group-buttons button[type=reset] {
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #ececec;
+            background-color: rgba(255,255,255,0.4);
+        }
+        .form-group-buttons button[type=submit] {
+            background-color: #484848;
+            color: #c9c9c9;
+            border: 1px solid #484848;
+        }
+        .form-control-feedback.glyphicon-remove {
+            color: #ff3300;
+        }
+        .form-control-feedback.glyphicon-ok {
+            color: #c9c9c9;
+        }
+
+
+
+/*
+** PRELOADER
+*/
+.preloader {
+    background-color: rgba(13,13,13,0.9);
+}
+
+
+/* ****************************************************** */
+
+
+/* Generic Responsive */
+@media (max-width: 768px) {
+    .navbar-header {
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        background-color: rgba(0,0,0,0.9);
+    }
+    .navbar-collapse {
+        background-color: rgba(13,13,13,0.8);
+        }
+            .navbar-default .navbar-nav > li > a:after {
+        		background-color: rgba(0,0,0,0.7);
+            }
+            .navbar-nav li a {
+            	color: rgba(255,255,255,0.4);
+            }
+            .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-nav > li > a.active {
+            	color: rgba(255,255,255,1);
+            }
+        .navbar-nav li > ul > li > a:after {
+        	display: none !important;
+        }
+}

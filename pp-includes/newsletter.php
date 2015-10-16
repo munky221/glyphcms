@@ -1,0 +1,7 @@
+<?php
+/*
+Newsletter Functions
+*/
+
+
+?>
